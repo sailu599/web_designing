@@ -4,8 +4,7 @@ const mongo=require('mongoose')
 
 
 const user_model=require('./model/user_model')
-const uri = "mongodb://127.0.0.1:27017/mydb"
-
+const uri = "mongodb+srv://saileshsailu599:KQ9bnAwbspZPSA31@cluster0.asy6z9n.mongodb.net/?retryWrites=true&w=majority"
 
 
 const connection=async function(){
